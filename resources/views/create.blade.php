@@ -15,4 +15,7 @@
     <label for="date">Date</label><br>
     <input type="date" id="date" placeholder="Enter Date" name="date" maxlength="150"
         required>
+
+    <input type="submit" value="submit">
+</form>
 @endsection
