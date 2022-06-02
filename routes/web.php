@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CreateController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,5 +19,5 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', CreateController::class, 'index');
-Route::get('/create', CreateController::class, 'create');
+Route::get('/home', App\Http\Controllers\CreateController::class, 'index');
+Route::get('/create', App\Http\Controllers\CreateController::class, 'create');
