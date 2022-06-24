@@ -20,7 +20,6 @@
         </div>
     </div>
     <a href="/home/create">create</a>
-    <p>I changed something!</p>
     @if ($forms != null)
         @foreach ($forms as $form)
             <p>{{$form->name}}</p>
