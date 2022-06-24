@@ -19,7 +19,7 @@
             </div>
         </div>
     </div>
-    <a href="/create">create</a>
+    <a href="/home/create">create</a>
     @if ($forms != null)
         @foreach ($forms as $form)
             <p>{{$form->name}}</p>
