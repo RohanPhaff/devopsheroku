@@ -2,7 +2,7 @@
 
 @section('content')
 <form method="POST" action="/home">
-    @crsf
+    @csrf
 
     <label for="name">Name</label><br>
     <input type="text" id="name" placeholder="Enter Name" name="name" maxlength="150"
