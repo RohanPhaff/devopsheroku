@@ -21,11 +21,11 @@
     </div>
     <a href="/create">create</a>
     @if ($forms != null)
-        @foreach ($forms as $form) {
+        @foreach ($forms as $form)
             <p>{{$form->name}}</p>
             <p>{{$form->complaint}}</p>
             <p>{{$form->date}}</p>
-        }
+        @endforeach
     @endif
 </div>
 @endsection
